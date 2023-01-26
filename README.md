@@ -24,7 +24,7 @@ Here's an example of how to use methods from `orquestra-opt` to solve a simple m
 from orquestra.opt.problems import MaxCut
 import networkx as nx
 
-def orquestra_opt_example_function()
+def orquestra_opt_example_function():
    graph = nx.complete_graph(4)
    value, solutions = MaxCut().solve_by_exhaustive_search(graph)
    return solutions
